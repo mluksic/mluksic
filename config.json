@@ -1,0 +1,39 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/mluksic/mluksic/master/README.md",
+  "title": "LiveTerm",
+  "name": "Miha Luksic",
+  "ascii": "mluksic",
+  "social": {
+    "github": "mluksic",
+    "linkedin": "miha-luksic"
+  },
+  "email": "hello@mihaluksic.com",
+  "ps1_hostname": "mihaluksic.com",
+  "ps1_username": "guest",
+  "repo": "",
+  "resume_url": "",
+  "donate_urls": {
+    "paypal": "https://paypal.me/cveinnt",
+    "patreon": "https://patreon.com/cveinnt"
+  },
+  "colors": {
+    "light": {
+      "background": "#E5E9F0",
+      "foreground": "#2E3440",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    },
+    "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
