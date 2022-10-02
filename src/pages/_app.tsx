@@ -1,10 +1,17 @@
 import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS);
+  
 
 const App = ({ Component, pageProps }) => {
+  React.useEffect(() => {
+      ReactGA.pageview(window.location.pathname + window.location.search);
+  });
   const inputRef = React.useRef<HTMLInputElement>(null);
-
+  
   const onClickAnywhere = () => {
     inputRef.current.focus();
   };
